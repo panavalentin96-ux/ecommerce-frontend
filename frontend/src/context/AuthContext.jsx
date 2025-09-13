@@ -5,7 +5,6 @@ const AuthContext = createContext();
 // URL-ul backend-ului live de pe Vercel
 const API_URL = "https://ecommerce-backend-taupe-theta.vercel.app/api";
 
-
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
     const storedUser = localStorage.getItem("user");
