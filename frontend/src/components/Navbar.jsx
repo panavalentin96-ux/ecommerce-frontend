@@ -6,9 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-blue-600 text-white p-4 flex justify-between items-center">
-      <Link to="/" className="text-xl font-bold">
-        eCommerce
-      </Link>
+      <Link to="/" className="text-xl font-bold">eCommerce</Link>
       <div className="flex items-center gap-4">
         <Link to="/">Home</Link>
         {user ? (
